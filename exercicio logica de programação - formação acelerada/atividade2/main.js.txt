@@ -1,0 +1,8 @@
+const nome = "Bruna";
+const sobrenome = "Medeiros";
+
+function nomecompleto(nome, sobrenome){
+    return `${nome} ${sobrenome}`;
+}
+
+console.log(nomecompleto(nome, sobrenome));

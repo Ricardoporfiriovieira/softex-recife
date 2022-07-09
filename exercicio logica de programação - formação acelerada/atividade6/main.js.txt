@@ -1,0 +1,7 @@
+const nome = "Bruna Medeiros";
+
+function dizOla(nome){
+    return `Olá, ${nome}!`;
+}
+
+console.log(dizOla(nome));

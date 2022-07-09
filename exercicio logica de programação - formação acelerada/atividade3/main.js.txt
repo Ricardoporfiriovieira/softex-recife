@@ -1,0 +1,8 @@
+const moeda = 50;
+
+function conversaoDollar(moeda){
+    const dollar = moeda / 5.26;
+    return dollar.toFixed(2);
+}
+
+console.log(conversaoDollar(moeda));

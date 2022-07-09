@@ -1,0 +1,8 @@
+const numero = 87;
+const porcentagem = 20;
+
+function descobrePorcentagem(numero, porcentagem){
+   return numero * (porcentagem / 100);
+}
+
+console.log(descobrePorcentagem(numero, porcentagem).toFixed(2));
